@@ -26,7 +26,7 @@ function populate() {
 populate();
 
 // Event Listener: filter by date input
-var button1 = d3.select('#filter-btn');
+var button = d3.select('#filter-btn');
 
 button.on('click', function() {
 
