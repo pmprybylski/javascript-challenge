@@ -21,3 +21,7 @@ function populate() {
         row.append('td').text(data.comments);
     });
 }
+
+// Populate Table
+populate();
+
