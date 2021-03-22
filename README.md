@@ -12,5 +12,7 @@ To populate the rest of the table, data was sources from 'data.js' into app.js (
 
 To filter the table based on user input by date, an anonymous function was used, which will trigger when the 'Filter Table' button is clicked.  This function first selects the user input with 'd3.select()' and '.property('value')'.  It then filters 'tableData' based on that input value with '.filter()', storing the the results in 'filteredData'.  After, the original table is cleared using 'tbody.html('')' and is repopulated with 'filteredData' using a 'forEach' loop on 'filteredData' to append a new row and populate each column.
 
+## Dataset
 
+* [UFO Sightings Data](StarterCode/static/js/data.js)
 
